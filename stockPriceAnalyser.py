@@ -102,7 +102,7 @@ class stockPriceAnalyser(object):
 
 
 if __name__ == "__main__":
-    CSV_FILE = "test_invalid_csv.csv"
+    CSV_FILE = "test_shares_data.csv"
     obj = stockPriceAnalyser(CSV_FILE)
     print "+"*100
     print obj.getCompWiseHighestStckPriceData()
